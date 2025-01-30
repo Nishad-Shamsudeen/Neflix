@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+import react from 'react';
 import './App.css';
+import NavBar from './Components/NavBar/NavBar';
+import Banner from './Components/Banner/Banner';
+import {originalMovieUrl,actionMovieUrl} from './Constatnce/Constance'
+import MovieList from './Components/MovieList/MovieList';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <NavBar/>
+     <Banner/>
+     <MovieList url= {originalMovieUrl} title='Netflix Originals'/>
+     <MovieList url={actionMovieUrl}title='Action' isSmall/>
+      
     </div>
   );
 }
