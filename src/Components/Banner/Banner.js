@@ -26,8 +26,8 @@ const sampleUrl='/public/Shawshank redemption.jpg'
                     <h2 className='movie-name'>{movie ? movie.name:'No file '}</h2>
                     
                 <div className="banner-button">
-                    <button className='button'>Play</button>
-                    <button className='button'>List</button>
+                    <button onClick={()=>alert("Trailer will be added soon...")}className='button'>Play</button>
+                    <button onClick={()=>alert("We are working on adding the list")}className='button'>List</button>
                 </div>
                 <h1 className='description'> 
                     {movie ? movie.overview :''}</h1>
