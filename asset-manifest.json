@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Neflix/static/css/main.779efc14.css",
-    "main.js": "/Neflix/static/js/main.a8cb5248.js",
+    "main.css": "/Neflix/static/css/main.026d4d0c.css",
+    "main.js": "/Neflix/static/js/main.8f513128.js",
     "index.html": "/Neflix/index.html",
-    "main.779efc14.css.map": "/Neflix/static/css/main.779efc14.css.map",
-    "main.a8cb5248.js.map": "/Neflix/static/js/main.a8cb5248.js.map"
+    "main.026d4d0c.css.map": "/Neflix/static/css/main.026d4d0c.css.map",
+    "main.8f513128.js.map": "/Neflix/static/js/main.8f513128.js.map"
   },
   "entrypoints": [
-    "static/css/main.779efc14.css",
-    "static/js/main.a8cb5248.js"
+    "static/css/main.026d4d0c.css",
+    "static/js/main.8f513128.js"
   ]
 }
