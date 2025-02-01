@@ -1,5 +1,13 @@
 .moving-message{
     margin:'10px';
-    color:'white';
+    color:white;
     margin-left: 220px;
+    background: none;
+    -webkit-text-stroke: 1.5px black;
+    
+  }
+  .moving-text{
+  
+  
+  
   }
