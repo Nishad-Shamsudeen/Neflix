@@ -1,8 +1,8 @@
-import react from 'react';
+import React from 'react';
 import './App.css';
 import NavBar from './Components/NavBar/NavBar';
 import Banner from './Components/Banner/Banner';
-
+//import 'bootstrap/dist/css/bootstrap.min.css';
 import {originalMovieUrl,actionMovieUrl} from './Constatnce/Constance'
 import MovieList from './Components/MovieList/MovieList';
 

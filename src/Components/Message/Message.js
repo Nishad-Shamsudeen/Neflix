@@ -7,13 +7,17 @@ function Message() {
     loop: {},
   })
   return (
-    <div>
+    <div className='container'>
+      <div className='row'>
+    <div className='col-xl-12'>
       <h1 className='moving-message'>
 
         {text}
 
         <Cursor />
       </h1>
+    </div>
+    </div>
     </div>
   )
 }

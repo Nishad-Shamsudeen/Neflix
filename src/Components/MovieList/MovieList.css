@@ -2,8 +2,8 @@
     height: 200px;
 }
 .posters{ 
-    padding: 20px;
-    margin-top: -33px;
+    padding: 35px;
+    margin-top: 376px;
     color: #fff;
     overflow-x: scroll;
     overflow-y: hidden;
@@ -12,7 +12,7 @@
     display: none;
 }
 .small-poster-image::-webkit-scrollbar{
-    //display: none;
+    /*display: none;*/
 }
 .poster-image{
     height: 180px;
@@ -29,8 +29,8 @@
     
 }
 .small-poster-image{
-    height: 130px;
-    padding-left: 1px;
+    height: 150px;
+    padding-left: 5px;
     margin-right: 10px;
     cursor: pointer;
     margin-top: -13px;
