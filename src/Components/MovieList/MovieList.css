@@ -3,10 +3,12 @@
 }
 .posters{ 
     padding: 35px;
-    margin-top: 376px;
+    margin-top: 160px;
     color: #fff;
     overflow-x: scroll;
     overflow-y: hidden;
+   
+   
 }
 .posters::-webkit-scrollbar{
     display: none;
@@ -44,5 +46,6 @@
     transform : scale(1.2,1.2);
 }
 .title{
-    margin-top: 65px;
+    margin-top: 41px;
+   
 }
